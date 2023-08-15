@@ -9,6 +9,10 @@ onMounted(() => {
   console.log('Componente listo...')
   guitarras.value = db;
 });
+
+const incrementar = () => {
+  alert('Diste click en el boton');
+}
 </script>
 
 <template>
