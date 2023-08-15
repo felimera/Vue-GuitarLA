@@ -10,8 +10,8 @@ onMounted(() => {
   guitarras.value = db;
 });
 
-const agregarCarrito = () => {
-  alert('Diste click en el boton');
+const agregarCarrito = (guitarra) => {
+  console.log(guitarra);
 }
 </script>
 
