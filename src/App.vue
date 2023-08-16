@@ -22,10 +22,18 @@ const agregarCarrito = (guitarra) => {
     carrito.value.push(guitarra);
   }
 };
+
+const decrementarCantidad = () => {
+
+}
+
+const incrementarCantidad = () => {
+
+}
 </script>
 
 <template>
-  <Header :carrito="carrito" />
+  <Header :carrito="carrito" @incrementar-cantidad="incrementarCantidad" @decrementar-cantidad="decrementarCantidad" />
 
   <main class="container-xl mt-5">
     <h2 class="text-center">Nuestra Colección</h2>
